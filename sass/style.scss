@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.container{
+   width: 100%;
+   max-width: 1240px;
+   padding: 0px 43px;
+   margin: 0 auto;
+}
+$Gelasio: 'Gelasio', serif;
+$Ribeye:'Ribeye', serif;
+$Roboto:'Roboto', sans-serif;
+@import "_background.scss";
+@import "_main.scss";
